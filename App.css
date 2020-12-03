@@ -1,0 +1,211 @@
+
+.App {
+  margin: 0 auto;
+  text-align:  center;
+  background: #001a4d;
+
+ }
+ 
+ .App-logo {
+   height: 40vmin;
+   pointer-events: none;
+   position: relative;
+   top: 0;
+   left: 0;
+ }
+ 
+ 
+ @media (prefers-reduced-motion: no-preference) {
+   .App-logo {
+     animation: App-logo-spin infinite 20s linear;
+   }
+ 
+ }
+ 
+ .App-logo2 {
+  height: 95vmin;
+  pointer-events: none;
+  position: absolute;
+ 
+
+ }
+ 
+ .App-logo3 {
+  height: 20vmin;
+   pointer-events: none;
+   position: relative;
+
+}
+.App-homepage{
+  height: 15vmin;
+  pointer-events: none;
+}
+
+.HistoryImages{
+  height: 10vmin;
+   pointer-events: none;
+   position: relative;
+
+}
+
+ .App-header {
+   background-color: #000000 ; 
+   min-height: 60vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: calc(7px + 2vmin);
+   color: white;
+ }
+ 
+ 
+ .App-header_4pages {
+   background: #001a4d;
+
+   min-height: 60vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: calc(7px + 2vmin);
+ }
+ 
+ .App-link {
+   color: #61dafb;
+ }
+ 
+ .justify{
+  text-align: center
+ }
+ .button {
+  padding: 6px 32px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color:black;
+  background-color: #99bbff;
+  border: none;
+  border-radius: 15px;
+ }
+ .button1 {
+  padding: 6px 32px;
+  margin-left: 20px; 
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  background-color : white ;
+  border: 1px solid white;
+  width: 250px;
+ }
+ .button:hover {background-color: #80aaff }
+ .button1:hover {background-color: #ccdcff }
+ .button:active {
+   background-color: #002b80;
+   transform: translateY(4px);
+ }
+ .button1:active {
+  background-color: #002b80;
+  transform: translateY(4px);
+}
+
+
+
+.barButtons1 {
+  background-color:#003cb3;
+  transition-duration: 0.4s;
+  display: inline-block;
+  padding: 6px 32px;
+  font-size: 16px;
+  margin: 4px 2px;
+  text-align:  center;
+  color: white;
+  border: 2px solid #e7e7e7;
+  width: 270px;
+  cursor: pointer;
+}
+
+
+.barButtonsnav {
+  background-color:#003cb3;
+  transition-duration: 0.4s;
+  display: inline-block;
+  padding: 6px 32px;
+  font-size: 16px;
+  margin: 4px 2px;
+  text-align:  center;
+  color: white;
+  border: 2px solid #e7e7e7;
+  width: 170px;
+  cursor: pointer;
+}
+
+.barButtons1:hover {background-color: #002b80;}
+
+ .center {
+   margin: auto;
+   width: 60%;
+   padding: 10px;
+ }
+ 
+ .mytext {
+  border: none;
+   padding: 7px;
+   background-color:#001a4d;
+   color: white;
+   border-bottom: 1px solid white;
+   text-align:  left;
+   width: 320px;
+ 
+
+ }
+ .mytextS {
+  border: none;
+   padding: 7px;
+   background-color:#001a4d;
+   color: white;
+   border-bottom: 1px solid white;
+   text-align:  left;
+   width: 200px;
+
+ }
+.choosefiletext{
+  border: none;
+  padding: 7px;
+  background-color:#001a4d;
+  color: white;
+  width: 200px;
+
+}
+div.pagesPharmatext {
+  font-size: 30px;
+  color: #FFFFFF;
+  /*color: #bfbfbf;*/
+}
+
+div.welcometxt { 
+  text-align: center;
+  font-size: 45px;
+  color: #99bbff
+}
+
+.sizeofp
+{
+  font-size: 150px;
+}
+
+responsive-image {  width: 100%;  height: auto; } 
+
+ @keyframes App-logo-spin {
+   from {
+     transform: rotate(0deg);
+   }
+   to {
+     transform: rotate(360deg);
+   }
+ 
+ }
+ 

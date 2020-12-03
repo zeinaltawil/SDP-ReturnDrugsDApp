@@ -1,0 +1,78 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "ReturnedPackageEA",
+				"type": "address"
+			}
+		],
+		"name": "approveReturnedPackage",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "CA",
+				"type": "address"
+			}
+		],
+		"name": "regiterCA",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "Reseller",
+				"type": "address"
+			}
+		],
+		"name": "regiterReseller",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [],
+		"name": "AutoAthuentication",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "usertype",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "s",
+				"type": "address"
+			}
+		],
+		"name": "ResellerExists",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]

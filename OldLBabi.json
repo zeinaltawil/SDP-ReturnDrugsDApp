@@ -1,0 +1,123 @@
+[
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "boxNumber",
+            "type": "uint256"
+          }
+        ],
+        "name": "sellDrug",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "OT",
+            "type": "string"
+          }
+        ],
+        "name": "changeOwner",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "name": "n",
+            "type": "string"
+          },
+          {
+            "name": "mDate",
+            "type": "uint256"
+          },
+          {
+            "name": "eDate",
+            "type": "uint256"
+          },
+          {
+            "name": "Q",
+            "type": "uint256"
+          },
+          {
+            "name": "price",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "name": "LotAddress",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "name": "DrugName",
+            "type": "string"
+          },
+          {
+            "indexed": false,
+            "name": "Quantity",
+            "type": "uint256"
+          },
+          {
+            "indexed": false,
+            "name": "PricePerBox",
+            "type": "uint256"
+          },
+          {
+            "indexed": false,
+            "name": "Manufacturer",
+            "type": "address"
+          }
+        ],
+        "name": "LotDispatched",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "name": "NewOwner",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "name": "OwnerType",
+            "type": "string"
+          }
+        ],
+        "name": "OwnerChanged",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "name": "LotAddress",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "name": "boxNumber",
+            "type": "uint256"
+          }
+        ],
+        "name": "DrugSold",
+        "type": "event"
+      }
+    ]
